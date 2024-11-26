@@ -1,0 +1,469 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1732627585990049, "dur":85, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627585990180, "dur":30576, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627586020762, "dur":159, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627586020969, "dur":386, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627586023189, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627586021379, "dur":4142, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627586025522, "dur":2269634, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627588295161, "dur":263, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627588295424, "dur":83, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627588295646, "dur":1817, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1732627586021683, "dur":3847, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627586029392, "dur":1114, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1732627586030506, "dur":7453, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732627586037959, "dur":135, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1732627586038095, "dur":2220, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1732627586040316, "dur":128, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":1, "ts":1732627586040444, "dur":291, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1732627586040735, "dur":202, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1732627586025532, "dur":15463, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041003, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/8396810748178629249.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041106, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041391, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041467, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041566, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041686, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041797, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041891, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586042015, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586042086, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586042322, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586042622, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586042720, "dur":575, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586043416, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586043512, "dur":412, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586043927, "dur":242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586044171, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627586045108, "dur":2214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1732627586047324, "dur":1951, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1732627586049277, "dur":6049, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1732627586055331, "dur":19332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1732627586041180, "dur":33921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/efeom/Desktop/SAMPLEFORM/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1732627586075102, "dur":9371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627586091464, "dur":6541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1732627586102186, "dur":2172513, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1732627588275235, "dur":17884, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627588275203, "dur":17918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627588293123, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627588293918, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586021685, "dur":3850, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586025539, "dur":1296, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586026836, "dur":1469, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586028306, "dur":1169, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586029475, "dur":949, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586030424, "dur":10583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586041009, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1732627586043903, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1732627586046589, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1732627586049244, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586047236, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1732627586049550, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1732627586050486, "dur":16328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1732627586067012, "dur":24450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586091463, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586091606, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586092680, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586096731, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586100819, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586104700, "dur":4050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586108756, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586108848, "dur":5686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586114539, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586114719, "dur":6367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586121091, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586121195, "dur":4415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586125615, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586125733, "dur":6560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586132310, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586132412, "dur":3721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586136137, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586136282, "dur":4118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586140407, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627586140534, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627586143203, "dur":2151967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586021714, "dur":3829, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586025546, "dur":1427, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586026973, "dur":2111, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586029084, "dur":1299, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586030383, "dur":10619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586041007, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1732627586041229, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586046829, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1732627586048087, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1732627586048187, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586048882, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1732627586050509, "dur":6780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1732627586057347, "dur":468, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586060909, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586057840, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1732627586061096, "dur":4534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1732627586065738, "dur":25733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586091473, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586091607, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586092696, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586097221, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586097342, "dur":4564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586101911, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586101986, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586105661, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586105758, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586109567, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586109668, "dur":4332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586114004, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586119754, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586114131, "dur":5723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586119859, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586119957, "dur":4119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586124081, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586124178, "dur":3944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586128127, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586128284, "dur":4561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586132850, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586132994, "dur":4479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586137479, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627586137612, "dur":6188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627586143801, "dur":2151367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586021739, "dur":3810, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586025551, "dur":1330, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586027481, "dur":524, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.28f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Web.Routing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586026882, "dur":2040, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586028922, "dur":1222, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586030144, "dur":10876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586041022, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1732627586044580, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1732627586046858, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1732627586046972, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586048788, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1732627586050284, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1732627586056697, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586053627, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1732627586056930, "dur":15210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1732627586072203, "dur":19274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586091481, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586091560, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586092662, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586097184, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586097258, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586101067, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586101274, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586104977, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586109120, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586109240, "dur":4208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586113453, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586113545, "dur":6888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586120438, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586120580, "dur":3972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586124558, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586124682, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586128908, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586129049, "dur":3811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586132864, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586132980, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586136843, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627586136927, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627586141051, "dur":2154108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586021766, "dur":3788, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586025556, "dur":1311, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586026868, "dur":1631, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586028500, "dur":1020, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586029520, "dur":11479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586041003, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1732627586041240, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586047335, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1732627586049505, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform.exe" }}
+,{ "pid":12345, "tid":5, "ts":1732627586049634, "dur":46311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform.exe" }}
+,{ "pid":12345, "tid":5, "ts":1732627586096000, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586096052, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586096420, "dur":3634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586100062, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586100147, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586103729, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586103804, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586107456, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586107613, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586107667, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586111231, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586111330, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586115755, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586115862, "dur":4846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586120714, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586120849, "dur":3821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586124674, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586124760, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586129261, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586129340, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586129399, "dur":4272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586133676, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586133744, "dur":4534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586138283, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627586138442, "dur":4328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627586142771, "dur":2152410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586021792, "dur":3769, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586025564, "dur":1500, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586027064, "dur":1360, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586028424, "dur":1323, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586029747, "dur":11251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586041862, "dur":480, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1732627586042344, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1732627586043117, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1732627586046452, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1732627586046580, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586049272, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586047245, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1732627586049463, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1732627586049662, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1732627586051901, "dur":5838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1732627586057957, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1732627586060729, "dur":3891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1732627586064777, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1732627586067860, "dur":23667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586091528, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586091593, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586092669, "dur":4231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586096905, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586096981, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586100812, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586100891, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586104255, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586107398, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586104351, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586107477, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586107608, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586110993, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586111288, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586116229, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586116455, "dur":4392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586120853, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586120961, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586125165, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586129827, "dur":162, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586125249, "dur":4748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586130002, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586130095, "dur":3481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586133581, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586133678, "dur":4006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586137690, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627586137792, "dur":4365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627586142158, "dur":2153018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586021815, "dur":3753, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586025570, "dur":1843, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586027414, "dur":1591, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586029005, "dur":1310, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586030316, "dur":10736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586041053, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1732627586041209, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586046028, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1732627586047761, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1732627586048354, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1732627586050189, "dur":7967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1732627586058456, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1732627586058701, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1732627586061348, "dur":6137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1732627586067566, "dur":23898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586091469, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586091602, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586092657, "dur":4381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586097043, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586097144, "dur":3999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586101148, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586101279, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586104860, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586105015, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586108898, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586108983, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586113200, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586113448, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586117743, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586117970, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586121574, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586121662, "dur":5023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586126692, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586126793, "dur":5018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586131816, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586131894, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586135581, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586135728, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586139587, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627586139746, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627586142999, "dur":2152174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586021845, "dur":3728, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586025576, "dur":1008, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586026585, "dur":2018, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586028603, "dur":1340, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586029943, "dur":11061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586041007, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1732627586043869, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1732627586046676, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1732627586049290, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586047283, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1732627586049457, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586049978, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586054745, "dur":14592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1732627586069416, "dur":22057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586091477, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586091551, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586092544, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586096612, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586100546, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586100631, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586105158, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586109059, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586109212, "dur":4292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586113509, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586113588, "dur":5885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586119479, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586119582, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586123260, "dur":949, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586124245, "dur":4394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586128645, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586128917, "dur":4695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586133618, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586133717, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586137466, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627586137562, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627586142099, "dur":2153059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586021870, "dur":3709, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586025582, "dur":1080, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586026662, "dur":1271, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586027934, "dur":1534, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586029468, "dur":940, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586030408, "dur":10607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586041018, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1732627586044152, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1732627586046927, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1732627586047040, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586047632, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1732627586049768, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586049923, "dur":30478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586080444, "dur":11025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586091473, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586091570, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586092614, "dur":4205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586096823, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586097010, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586100734, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586100813, "dur":4381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586105259, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586109667, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586109765, "dur":5360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586115147, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586115302, "dur":5094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586120402, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586120575, "dur":4052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586124632, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586129817, "dur":164, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586124703, "dur":5289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586129997, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586130159, "dur":4148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586134311, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586134398, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586134491, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586138336, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732627586138450, "dur":4231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732627586142683, "dur":2152472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586021901, "dur":3685, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586025588, "dur":1548, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586027136, "dur":1432, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586028568, "dur":1368, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586029936, "dur":11074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586041013, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1732627586041214, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586044930, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1732627586046910, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1732627586047028, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586047617, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1732627586049816, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586049928, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586050182, "dur":7287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586057549, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586057852, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1732627586060725, "dur":5104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1732627586065952, "dur":25514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586091468, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586091551, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586092609, "dur":3886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586096500, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586096576, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586100409, "dur":3874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586104288, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586104373, "dur":4103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586108481, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586108590, "dur":4886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586113481, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586113599, "dur":6110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586119713, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586119848, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586123276, "dur":539, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586123841, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586127955, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586128033, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586132631, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586132715, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586136181, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732627586136288, "dur":7805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732627586144094, "dur":2151071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586021920, "dur":3686, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586025609, "dur":1435, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586027044, "dur":1456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586028501, "dur":1441, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586029943, "dur":11054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586041040, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586041168, "dur":1897, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1732627586043078, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1732627586043494, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732627586043582, "dur":400, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732627586043984, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732627586044181, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\efeom\\Desktop\\SAMPLEFORM\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732627586045108, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player1a29de20-inputdata.json" }}
+,{ "pid":12345, "tid":11, "ts":1732627586041156, "dur":4128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1732627586046237, "dur":189, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586046430, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732627586047084, "dur":208401, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1732627586275867, "dur":2496, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1732627586275830, "dur":2535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1732627586278396, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1732627586279824, "dur":2015337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586021955, "dur":3656, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586025612, "dur":1245, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586026857, "dur":1571, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586028428, "dur":1234, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586029662, "dur":11363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586041027, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1732627586044259, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1732627586046843, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1732627586046956, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586047376, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1732627586049640, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586050514, "dur":6617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586057226, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1732627586061293, "dur":7871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1732627586069276, "dur":22247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586091526, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586091584, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586092677, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586096728, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586096831, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586097003, "dur":3865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586100872, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586101067, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586104575, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586108489, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586108608, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586112491, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586112626, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586116829, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586116926, "dur":4172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586121104, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586121201, "dur":4445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586125650, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586125738, "dur":5281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586131024, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586131160, "dur":3922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586135087, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586135267, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586138918, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732627586139100, "dur":3850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efeom/Desktop/ThePlatform/ThePlatform_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732627586142952, "dur":2152226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627588300653, "dur":1540, "ph":"X", "name": "ProfilerWriteOutput" }
+,
